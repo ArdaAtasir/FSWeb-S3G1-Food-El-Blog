@@ -23,14 +23,23 @@ font-family: roboto;
 padding: 10px;
 line-height: 1.4;
 
+   <p class="paragraflar">
 */
-
+.paragraflar{
+    font-size: 16px;
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
+}
 
 /*======= Sayfadaki TÜM imajlar için aşağıdaki özellikleri içeren bir selector yaratın:
 
   border-radius: 10px;
 
 */
+.konum{
+  border-radius: 10px;
+}
 
 .content-row {
   display: flex;
@@ -38,11 +47,13 @@ line-height: 1.4;
 
 .content-row div {
   /*======= margin propery yaratın.  Değerini 20px olarak atayın*/
+  margin: 20px;
 }
 
 .container {
   /*======= width property yaratın. Değerini 605px olarak atayın */
   margin: 0 auto;
+  width: 605px;
 }
 
 .container header nav a {
@@ -55,7 +66,7 @@ line-height: 1.4;
   text-decoration: none;
   margin-bottom: 20px;
    /*======= background property yaratın. Değerini #E79947 olarak atayınız.*/
-  
+  background-color: #E79947;
 }
 
 .container header nav a:hover {
